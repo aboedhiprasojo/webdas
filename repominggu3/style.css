@@ -1,0 +1,37 @@
+body {
+	background: #EFEFEF;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: #012554;
+	margin-bottom: 0px;
+	text-align: center; 
+}
+
+hr {
+	border: 2;
+	color: #DEDEDE;
+}
+
+.panel {
+	background-color: #FFFFFF;
+	width: 950px;
+	margin:25px auto;
+}
+
+.panel-body {
+	padding: 15px;
+}
+
+.tabel-bordered {
+	width: 100;
+	max-width: 100;
+	margin-bottom: 20px;
+}
+
+.btn-danger {
+	color: #FFFFFF;
+	background-color: #D9534F
+}
