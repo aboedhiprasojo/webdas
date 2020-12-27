@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Perulangan do/while</title>
+</head>
+<body>
+	<script>
+		var ulangi = confirm("Apakah Anda Mau Mengulangi Lagi?");
+		var counter = 0;
+
+		do {
+			counter++;
+			ulangi = confirm("Apakah Anda Mau Mengulangi Lagi?");
+		}
+		while(ulangi)
+			document.write("Perulangan Sudah Dilakukan Sebanyak "+ counter +" kali")
+	</script>
+</body>
+</html>
